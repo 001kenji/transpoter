@@ -42,6 +42,19 @@ function App() {
     }
   })
 
+  window.addEventListener('loadeddata', function () {
+    if(screen.width >= 780) {
+      Big()
+      console.log('big')
+    }
+  })
+  useLayoutEffect(  () => {
+    if(screen.width >= 780) {
+      Big()
+      console.log('big')
+    }
+  },[])
+
 window.addEventListener('load', function () {
   if(screen.width >= 780) {
     Big()
@@ -56,7 +69,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = "block";
   }
 }
 
