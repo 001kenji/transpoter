@@ -1,0 +1,107 @@
+@media only screen and (max-width : 640px)  {
+
+    #onwning-review-div {
+        min-height: 450px;
+        padding: 5px;
+       
+    }
+    #cirlces {
+        
+       
+    }
+    #slides {
+        display: flex;
+        flex-direction: row;
+       
+      
+    }
+    #mapping-div {
+        
+        text-align: left;
+        width: 100%;
+       overflow: visible;
+        padding: 5px;
+        border: 1px solid rgb(14 116 144);
+        border-radius: 2px;
+    }
+    #hosting-review-div {
+        min-height: 300px;
+        gap: 5px;
+        min-width: 300px;
+        border-radius: 2px;
+        padding: 3px;
+
+    }
+    #heading-review-div {
+        text-align: center;
+        font-size: 28px;
+    }
+    #carousel-review-div {
+        /* display: flex;
+        flex-direction: row;
+        gap: 45px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 15%; */
+    }
+    #heading-review-div span {
+        display: inline-flex;
+        gap: 5px;
+    }
+}
+
+@media only screen and (min-width : 640px)  {
+
+    #onwning-review-div {
+        min-height: 500px;
+        padding: 5px;
+       
+    }
+    #cirlces {
+        
+       
+    }
+    #slides {
+        display: flex;
+        flex-direction: row;
+       
+      
+    }
+    #mapping-div {
+        
+        text-align: left;
+        width: 100%;
+       overflow: visible;
+        padding: 5px;
+        border: 1px solid rgb(14 116 144);
+        border-radius: 2px;
+    }
+    #hosting-review-div {
+        min-height: 400px;
+        max-width: 700px;
+        margin: auto;
+        gap: 5px;
+        min-width: 300px;
+        border-radius: 2px;
+        padding: 3px;
+
+    }
+    #heading-review-div {
+        text-align: center;
+        font-size: 28px;
+    }
+    #carousel-review-div {
+        /* display: flex;
+        flex-direction: row;
+        gap: 45px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 15%; */
+    }
+    #heading-review-div span {
+        display: inline-flex;
+        gap: 5px;
+    }
+}

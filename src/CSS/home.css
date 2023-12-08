@@ -1,0 +1,180 @@
+@media only screen and (max-width : 640px)  {
+
+    #content-home-div {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        white-space: nowrap;
+        gap: 50%;
+    
+        padding: 5% 0px;
+    }
+    #mapping-content-div {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+
+    }
+    #mapping-content-div big {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #mapping-content-div textarea {
+        text-align: left;
+        min-height: 100px;
+        margin: 9px 0px;
+        resize: none;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+    #mapping-content-div button {
+        outline-color: transparent;
+        width: fit-content;
+        min-width: 80px;
+        border-radius: 2px;
+        margin: 6px 3px;
+    }
+    #navigator-home-div {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    #owning-home-div {
+        min-height: 400px;
+        
+        background-image: url('../assets/images/slider-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    #home-bg-div {
+      
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+            
+    }
+}
+
+@media only screen and (min-width : 640px)  {
+
+    #content-home-div {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        white-space: nowrap;
+        gap: 50%;
+    
+        padding: 5% 0px;
+    }
+    #mapping-content-div {
+        display: flex;
+        text-align: left;
+        font-size: 20px;
+        flex-direction: column;
+
+    }
+    #mapping-content-div big {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #mapping-content-div textarea {
+        text-align: left;
+        min-height: 100px;
+        margin: 9px 0px;
+        resize: none;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+    #mapping-content-div button {
+        outline-color: transparent;
+        width: fit-content;
+        min-width: 80px;
+        border-radius: 2px;
+        font-weight: 600;
+        margin: 6px 3px;
+    }
+    #navigator-home-div {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    #owning-home-div {
+        min-height: 500px;
+        
+        background-image: url('../assets/images/slider-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    #home-bg-div {
+      
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+            
+    }
+}
+
+@media only screen and (min-width : 780px)  {
+
+    #content-home-div {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        white-space: nowrap;
+        gap: 50%;
+    
+        padding: 5% 0px;
+    }
+    #mapping-content-div {
+        display: flex;
+        text-align: left;
+        font-size: 20px;
+        flex-direction: column;
+
+    }
+    #mapping-content-div big {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #mapping-content-div textarea {
+        text-align: left;
+        min-height: 150px;
+        margin: 9px 0px;
+        resize: none;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+    #mapping-content-div button {
+        outline-color: transparent;
+        width: fit-content;
+        min-width: 80px;
+        border-radius: 2px;
+        font-weight: 600;
+        margin: 6px 3px;
+    }
+    #navigator-home-div {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    #owning-home-div {
+        min-height: 600px;
+        
+        background-image: url('../assets/images/slider-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    #home-bg-div {
+      
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+            
+    }
+}
